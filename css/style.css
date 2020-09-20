@@ -36,7 +36,7 @@ h2 {
 
 footer {
     background-color: #000000;
-    color: white;
+    color: #00ccff;
     text-align: center;
     border-radius: 7px;
     margin-top: 90px;
@@ -44,7 +44,7 @@ footer {
   }
 
   footer a {
-    color: white;
+    color: #00ccff;
   
   }
   
@@ -53,6 +53,4 @@ footer {
   
   }
   
-  footer div {
-    color: white;
-  }
+  
