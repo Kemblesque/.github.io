@@ -99,8 +99,6 @@ body {
     font-size: 5rem;
     letter-spacing: .7rem;
     line-height: 1.25;
-    margin-block-start: 30px;
-    margin-block-end: 22px;
     color: #00ccff;
   }
   
@@ -109,14 +107,15 @@ body {
     letter-spacing: .025rem;
     line-height: 0;
     color: #00ccff;
-    margin-block-end: 28px;
+    margin-block-end: 22px;
   }
   
   h3 {
-    font-size: 2em;
+    font-size: 1.7rem;
     letter-spacing: .3rem;
     line-height: 1.0;
     color: #00ccff;
+    margin-block-end: 28px;
   }
   
   h4 {
