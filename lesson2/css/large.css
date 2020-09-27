@@ -1,0 +1,25 @@
+@media only screen and (min-width: 72em) {
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1200px;
+    }
+  
+    footer {
+        background-color: #000000;
+        color: #00ccff;
+        text-align: center;
+        border-radius: 7px;
+        margin-top: 10px;
+      
+      }
+
+      footer a {
+        color: #00ccff;
+      
+      }
+      
+      footer a:hover {
+        color: white;
+      
+      }
+  }

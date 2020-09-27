@@ -1,0 +1,143 @@
+body {
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    background-color: #000000;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: .75;
+    margin: .5rem;
+    border-radius: 7px;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #00ccff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    margin: .5rem;
+    border-radius: 5px;
+  }
+
+  footer a {
+    color: #00ccff;
+  
+  }
+  
+  footer a:hover {
+    color: white;
+  
+  }
+  
+  p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  main {
+    max-width: 967px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  a {
+    color: #000000;
+  }
+  
+  main section {
+    margin: 0.5rem;
+    /* border: 1px solid #bbb; */
+    padding: 0 1rem;
+    background-color: #e5e8eb;
+    border-radius: 5px;
+  }
+  
+  main section:nth-child(1) {
+    display: block;
+    margin: 0.5rem;
+    margin-right: 1.2rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-bottom: 1rem;
+  }
+  
+  main section:nth-child(2) {
+    display: block;
+    margin: 0.5rem;
+    margin-right: 1.2rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-bottom: 1rem;
+  }
+  
+  main section:nth-child(3) {
+    display: block;
+    margin: 0.5rem;
+    margin-right: 1.2rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-bottom: 1rem;
+  }
+  
+  main section picture img {
+    /* width: 100%; */
+    max-width: 275px;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    letter-spacing: .7rem;
+    line-height: 1.25;
+    margin-block-start: 30px;
+    margin-block-end: 22px;
+    color: #00ccff;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    letter-spacing: .025rem;
+    line-height: 0;
+    color: #00ccff;
+    margin-block-end: 28px;
+  }
+  
+  h3 {
+    font-size: 2em;
+    letter-spacing: .3rem;
+    line-height: 1.0;
+    color: #00ccff;
+  }
+  
+  h4 {
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 0;
+    color: #000000;
+    margin-block-end: -8px;
+  }
+  
+  .visualhierarchyexample {
+    border-radius: 10px;
+    margin-top: .8em;
+  }
+  
+  .contrastexample {
+    border-radius: 10px;
+    margin-top: .8em;
+  }
+  
+  .hickslawexample {
+    border-radius: 10px;
+    margin-top: .8em;
+  }

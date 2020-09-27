@@ -1,0 +1,15 @@
+@media only screen and (min-width: 37.5em) {
+    main {
+      grid-template-columns: 1fr 1fr;
+      max-width: 646px;
+    }
+  
+    main section picture img {
+      width: 100%;
+      height: auto;
+    }
+  
+    h1 {
+      line-height: 1;
+    }
+  }
