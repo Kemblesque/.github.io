@@ -1,6 +1,9 @@
 body {
     max-width: 760px;
     margin: 20px auto;
+    font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
 }
 
 header {
