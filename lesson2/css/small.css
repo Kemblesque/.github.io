@@ -107,7 +107,7 @@ body {
     letter-spacing: .025rem;
     line-height: 0;
     color: #00ccff;
-    margin-block-end: 22px;
+    text-align: left;
   }
   
   h3 {
@@ -115,7 +115,7 @@ body {
     letter-spacing: .3rem;
     line-height: 1.0;
     color: #00ccff;
-    margin-block-end: 28px;
+    text-align: left;
   }
   
   h4 {
@@ -123,7 +123,7 @@ body {
     letter-spacing: .025rem;
     line-height: 0;
     color: #000000;
-    margin-block-end: -8px;
+    text-align: left;
   }
   
   .visualhierarchyexample {
