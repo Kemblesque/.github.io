@@ -15,6 +15,7 @@ header {
     header img {
         float: right;
         max-width: 165px;
+        max-height: auto;
         margin-right: 15px;
         border-radius: 7px;
         filter: drop-shadow(3px 2px 4px black)
