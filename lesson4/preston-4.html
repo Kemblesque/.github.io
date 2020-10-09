@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Beau C Kemble">
+    <meta name="description" content="Assignment portal for Beau Kemble in WDD 230: Web Frontend Development at BYU-I">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beau Kemble's WDD 230 Weather Site Preston Town Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Preston Town Weather</title>
+
+  <body>
+    <header>
+      <picture>
+        <img src="images/Lesson3logo.png" alt="Weather Site Logo">
+      </picture>
+      <section class="heading">
+        <h1>Weather Wonder</h1>
+        <div class="motto">"Where the Weather is Never a Wonder"</div>
+      </section>
+    </header>
+
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="/lesson4/preston-4.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="contentbox">Hero w/ weather summary</div>
+      <div class="contentbox">5 day forecast</div>
+      <div class="contentbox">Articles</div>
+      <div class="contentbox">Contact Information</div>
+    </main>
+
+    <footer>
+  &copy; <span id="currentYear"></span> | <a href="https://kemblesque.github.io/">Beau Kemble</a> | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+  <div>Last Updated: <span id="updated"></span></div>
+</footer>
+<script src='js/date.js'></script>
+</body>
+</html>

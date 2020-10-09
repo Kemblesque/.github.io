@@ -1,0 +1,54 @@
+@media only screen and (min-width: 32.5em) {
+
+    h1 {
+      font-size: 2.5em;
+      margin-top: 0px;
+    }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    header img {
+      height: 120px;
+      width: auto;
+      padding-right: 10px;
+    }
+  
+      .heading h1 {
+          font-size: 2.5em;
+      }
+  
+      .motto {
+          letter-spacing: 1.5pt;
+          font-size: larger;
+      }
+  
+    footer {
+      border-radius: 15px;
+      height: 55px;
+      max-width: 1000px;
+    }
+  
+    main {
+      max-width: 1000px;
+    }
+  
+    .nav_bar {
+          display: flex;
+    }
+  
+      .nav_bar li {
+          display: block;
+          flex: 1 1 auto;
+    }
+  
+      .nav_bar a {
+          text-align: center;
+    }
+  
+      .nav_bar li:first-child {
+          display: none;
+    }
+  
+  }
