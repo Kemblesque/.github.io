@@ -1,0 +1,132 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #FFFCF2;
+  }
+  
+  header {
+    background-color: #EDC179;
+    color: #000000;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+    font-family: 'Merriweather';
+  }
+  
+  header img {
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading h1 {
+    font-size: 1.8em;
+    font-family: 'Merriweather';
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    font-family: 'Montserrat';
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+  }
+  
+  .section_head {
+    text-align: center;
+    color: #01796F;
+  }
+  
+  .contentbox{
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+  }
+  
+  main {
+    margin: auto;
+  }
+  
+  .motto {
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: 1pt;
+    color: #000000;
+  }
+  
+  nav {
+      margin: 0 auto;
+    background-color: #EDB04E;
+    border-radius: 15px;
+  }
+  
+  nav ul li a.active{
+    background-color: #5DBEF2;
+  }
+  
+  .nav_bar {
+    list-style: none;
+    text-align: center;
+      padding: 0;
+  }
+  
+  .nav_bar li:first-child {
+      display: block;
+  }
+  
+  .nav_bar li {
+      display: none;
+  }
+  
+  .nav_bar a {
+      display: block;
+      padding: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      color: #000000;
+      font-weight: 700;
+  }
+  
+  .nav_bar a:hover {
+      color: #5DBEF2;
+      background-color: #EDC179;
+  }
+  
+  .responsive li {
+      display: block;
+  }
+  
+  footer {
+    background-color:#EDB04E;
+    color: #000000;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 15px;
+  }
+
+  footer a {
+    color: #5DBEF2;
+  
+  }
+  
+  footer a:hover {
+    color: white;
+  
+  }
