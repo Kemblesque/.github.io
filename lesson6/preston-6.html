@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Beau C Kemble">
+    <meta name="description" content="Assignment portal for Beau Kemble in WDD 230: Web Frontend Development at BYU-I">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beau Kemble's WDD 230 Weather Site Preston Town Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Preston Town Weather</title>
+  </head>
+  <body>
+    <div id="announce" style="display: block;"></div>
+    <header>
+      <picture>
+        <img src="images/Lesson6logo.png" alt="Weather Site Logo">
+      </picture>
+      <section class="heading">
+        <h1>Weather Wonder</h1>
+        <div class="motto">"Where the Weather is Never a Wonder"</div>
+      </section>
+    </header>
+
+    <nav>
+      <ul class="nav_bar">
+        <li>
+          <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a class="active" href="/lesson6/preston-6.html">Preston</a>
+        </li>
+        <li>
+          <a href="#">Soda Springs</a>
+        </li>
+        <li>
+          <a href="#">Fish Haven</a>
+        </li>
+        <li>
+          <a href="#">Storm Center</a>
+        </li>
+        <li>
+          <a href="#">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2 class= "section_head">Preston</h2>
+      <div class="herodiv">
+        <picture>
+          <source media="(max-width: 400px)" srcset="images/main400.jpg">
+          <source media="(max-width: 800px)" srcset="images/main800.jpg">
+          <img src="images/main1200.jpg" alt="Sunny large">
+        </picture>
+        <section class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: Cloudy</p>
+          <p>High: 
+           <span id="temp">7</span>
+           °F
+         </p>
+          <p>Wind Chill: 
+           <span id="windchill"></span>
+           °F
+         </p>
+         <p>Humidity: 40%</p>
+         <p>Wind Speed: 
+           <span id="windspeed">11</span>
+            mph
+         </p>
+       </section>
+			</div>
+      <div class="forecastdiv">
+				<h3>5 Day Forecast</h3>
+				<table id="fiveDay">
+          <thead>
+              <tr id="forecastDay">
+                  <th>Mon</th>
+                  <th>Tues</th>
+                  <th>Wed</th>
+                  <th>Thurs</th>
+                  <th>Fri</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>
+                      <img src="images/sun.png" alt="Image of Day 1 Forecast">
+                      <br>
+                      <span id="degrees1">80 °F</span>
+                  </td>
+                  <td>
+                      <img src="images/partly_cloudy.png" alt="Image of Day 2 Forecast">
+                      <br>
+                      <span id="degrees2">75 °F</span>
+                  </td>
+                  <td>
+                      <img src="images/rain.png" alt="Image of Day 3 Forecast">
+                      <br>
+                      <span id="degrees3">70 °F</span>
+                  </td>
+                  <td>
+                      <img src="images/partly_cloudy.png" alt="Image of Day 4 Forecast">
+                      <br>
+                      <span id="degrees4">74 °F</span>
+                  </td>
+                  <td>
+                      <img src="images/sun.png" alt="Image of Day 5 Forecast">
+                      <br>
+                      <span id="degrees5">75 °F</span>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+			</div>
+      <div class="articlediv">
+        <img id="article_img" src="images/articleimage.jpg" alt="lake image">
+        <h3>Articles</h3>
+        <p>“We must learn to reawaken and keep ourselves awake, not by mechanical aids, but by an infinite expectation of the dawn, which does not forsake us even in our soundest sleep. I know of no more encouraging fact than the unquestionable ability of man to elevate his life by a conscious endeavour. It is something to be able to paint a particular picture, or to carve a statue, and so to make a few objects beautiful; but it is far more glorious to carve and paint the very atmosphere and medium through which we look, which morally we can do. To affect the quality of the day, that is the highest of arts.”
+          ― Henry David Thoreau, Walden</p>
+      </div>
+      <div class="contactdiv">
+        <div class="contact_info">
+          <h4>Contact Information</h4>
+          <h3>1234 Wonder Ave</h3>
+          <h3>Boise, Idaho 83707</h3>
+          <h3>208-555-1234</h3>
+          <h3>contact@weatherwonder.com</h3>
+        </div>
+        <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+        <a href="https://www.embedgooglemap.net/en/"></a>
+      </div>
+    </main>
+
+    <footer>
+  &copy; <span id="currentYear"></span> | <a href="https://kemblesque.github.io/">Beau Kemble</a> | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+  <div>Last Updated: <span id="updated"></span></div>
+</footer>
+<script src='js/script.js'></script>
+<script src="js/windchill.js"></script>
+</body>
+</html>
