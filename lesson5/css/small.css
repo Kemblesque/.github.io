@@ -1,8 +1,81 @@
+#announce {
+  display: none;
+  background-color: #EDC179;
+  color: #5DBEF2;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.articlediv p {
+  color: #5Dbef2;
+}
+
+.articlediv {
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
+  border: 1px solid #000;
+  color: #5dbef2;
+}
+
+#article_img {
+  width: 100%;
+}
+
 body {
     margin: 0 auto;
     font-family: 'Montserrat';
     background-color: #FFFCF2;
   }
+
+  .contact_info {
+    grid-column: 1;
+    margin: auto;
+  }
+  
+  .contact_info h3, .contact_info h4 {
+    text-align: center;
+    color: #5dbef2;
+  }
+  
+  /*.contactdiv img {
+    height: 200px;
+    margin: auto;
+  } */
+  
+  .contactdiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  #degrees1, #degrees2, #degrees3, #degrees4, #degrees5 {
+    color: #5dbef2;
+  }
+  
+  #fiveDay {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    color: #5dbef2;
+  }
+  
+  .forecastdiv {
+    display: none;
+  }
+  
+  #forecastDay {
+    background-color: #EDC179;
+    color: #5dbef2;
+    font-family: 'Merriweather';
+  }
+
+
   
   header {
     background-color: #EDC179;
@@ -41,10 +114,50 @@ body {
     font-size: 1.5em;
     font-family: 'Montserrat';
   }
+
+  h3 {
+    font-family: Century-Schoolbook;
+    font-size: 1.2em;
+    color: #5dbef2;
+    text-shadow: .5px .5px .5px #05386b;
+  }
+  
+  .forecastdiv h3, .articlediv h3 {
+    text-align: center;
+  }
+  
+  h4 {
+    text-decoration: underline;
+    font-family: 'Merriweather';
+  }
   
   .section_head {
     text-align: center;
-    color: #01796F;
+    color: #5dbef2;
+  }
+
+  .herodiv {
+    margin: 10px auto;
+    position: relative;}
+    
+  .herodiv img {
+    width: 100%;
+  }
+  
+  .summary {
+    position: absolute;
+    top: 0px;
+    font-size: .75em;
+    background: radial-gradient(#eee, #EDF5E1);
+    border: 1px solid #000;
+    padding: 5px;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+  }
+  
+  .summary p {
+    color: #5dbef2;
+    font-weight: bolder;
   }
   
   .contentbox{
@@ -66,6 +179,11 @@ body {
     font-size: .9em;
     letter-spacing: 1pt;
     color: #000000;
+  }
+
+  #map {
+    margin: auto;
+    border: 2px solid #05386b;
   }
   
   nav {
@@ -108,6 +226,12 @@ body {
   
   .responsive li {
       display: block;
+  }
+
+  p {
+    font-family: Century-Schoolbook;
+    font-size: 1em;
+    color:	#000000;
   }
   
   footer {
