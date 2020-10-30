@@ -1,0 +1,60 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Merriweather;
+    background-color: #EDC179;
+    text-align: center;
+  }
+  
+  [data-src] {
+    min-width: 50px;
+    min-height: 50px;
+  }
+  
+  header {
+    color: #000000;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+    font-family: Century-Gothic;
+  }
+  
+  header img {
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading h1 {
+    font-size: 1.8em;
+    font-family: Merriweather;
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    font-family: Merriweather;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #000000;
+  }
+  
+  main {
+    margin: auto;
+    max-width: 400px;
+  }
+  
+  img[data-src] {
+    filter: blur(.4em);
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    margin-top: 50px;
+  }
