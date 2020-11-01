@@ -40,8 +40,6 @@
       color: #5dbef2;
     }
     
-  
-    
     .contactdiv {
       display: grid;
       grid-template-columns: 1fr;
@@ -133,7 +131,7 @@
     }
   
     h3 {
-      font-family: Century-Schoolbook;
+      font-family: Merriweather;
       font-size: 1.2em;
       color: #5dbef2;
       text-shadow: .5px .5px .5px #05386b;
