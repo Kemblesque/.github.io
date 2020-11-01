@@ -1,0 +1,273 @@
+#announce {
+    display: none;
+    background-color: #EDC179;
+    color: #5DBEF2;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .articlediv p {
+    color: #5Dbef2;
+  }
+  
+  .articlediv {
+      display: block;
+      margin-top: 15px;
+      padding: 10px;
+    border: 1px solid #000;
+    color: #5dbef2;
+  }
+  
+  #article_img {
+    width: 100%;
+  }
+  
+  body {
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      background-color: #FFFCF2;
+    }
+  
+    .contact_info {
+      grid-column: 1;
+      margin: auto;
+    }
+    
+    .contact_info h3, .contact_info h4 {
+      text-align: center;
+      color: #5dbef2;
+    }
+    
+  
+    
+    .contactdiv {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #000;
+    }
+    
+    #degrees1, #degrees2, #degrees3, #degrees4, #degrees5 {
+      color: #5dbef2;
+    }
+    
+    #fiveDay {
+      margin: 0 auto;
+      width: 700px;
+      text-align: center;
+      color: #5dbef2;
+    }
+    
+    .forecastdiv {
+      display: none;
+    }
+    
+    #forecastDay {
+      background-color: #EDC179;
+      color: #5dbef2;
+      font-family: 'Merriweather';
+    }
+
+    #gallery_imgs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+      
+      #gallery_imgs figure {
+        margin: 0;
+        padding: 0;
+      }
+      
+      #gallery_imgs figcaption {
+        font-family: Century-Schoolbook;
+        font-size: 1em;
+        color: #05386B;
+        text-align: center;
+      }
+      
+      .galleryImage {
+        width: 100%;
+      }
+    
+    header {
+      background-color: #EDC179;
+      color: #000000;
+      align-items:center;
+      justify-content: center;
+      display: flex;
+      padding: 5px 0;
+      font-family: 'Merriweather';
+    }
+    
+    header img {
+      height: 80px;
+      width: auto;
+      padding-right: 10px;
+    }
+    
+    .heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .heading h1 {
+      font-size: 1.8em;
+      font-family: 'Merriweather';
+      margin-bottom: 0px;
+    }
+    
+    h1 {
+      font-family: 'Montserrat';
+      font-size: 1.8em;
+    }
+    
+    h2 {
+      font-size: 1.5em;
+      font-family: 'Montserrat';
+    }
+  
+    h3 {
+      font-family: Century-Schoolbook;
+      font-size: 1.2em;
+      color: #5dbef2;
+      text-shadow: .5px .5px .5px #05386b;
+    }
+    
+    .forecastdiv h3, .articlediv h3 {
+      text-align: center;
+    }
+    
+    h4 {
+      text-decoration: underline;
+      font-family: 'Merriweather';
+    }
+    
+    .section_head {
+      text-align: center;
+      color: #5dbef2;
+    }
+  
+    .herodiv {
+      margin: 10px auto;
+      position: relative;}
+      
+    .herodiv img {
+      width: 100%;
+    }
+    
+    .summary {
+      position: absolute;
+      top: 0px;
+      font-size: .75em;
+      background: radial-gradient(#eee, #EDF5E1);
+      border: 1px solid #000;
+      padding: 5px;
+      box-shadow: 0 0 30px #111;
+      opacity: .8;
+    }
+    
+    .summary p {
+      color: #5dbef2;
+      font-weight: bolder;
+    }
+    
+    .contentbox{
+      display: block;
+      margin: 10px auto;
+      border: 1px dashed black;
+      padding: 15px;
+      background-color: grey;
+      color: white;
+      font-style: italic;
+    }
+    
+    main {
+      margin: auto;
+    }
+    
+    .motto {
+      font-style: italic;
+      font-size: .9em;
+      letter-spacing: 1pt;
+      color: #000000;
+    }
+  
+    #map {
+      margin: auto;
+      border: 2px solid #05386b;
+    }
+    
+    nav {
+        margin: 0 auto;
+      background-color: #EDB04E;
+      border-radius: 15px;
+    }
+    
+    nav ul li a.active{
+      background-color: #5DBEF2;
+    }
+    
+    .nav_bar {
+      list-style: none;
+      text-align: center;
+        padding: 0;
+    }
+    
+    .nav_bar li:first-child {
+        display: block;
+    }
+    
+    .nav_bar li {
+        display: none;
+    }
+    
+    .nav_bar a {
+        display: block;
+        padding: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+        font-weight: 700;
+    }
+    
+    .nav_bar a:hover {
+        color: #5DBEF2;
+        background-color: #EDC179;
+    }
+    
+    .responsive li {
+        display: block;
+    }
+  
+    p {
+      font-family: Century-Schoolbook;
+      font-size: 1em;
+      color:	#000000;
+    }
+    
+    footer {
+      background-color:#EDB04E;
+      color: #000000;
+      font-family: 'Merriweather';
+      font-size: 16px;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 10px;
+      border-radius: 15px;
+    }
+  
+    footer a {
+      color: #5DBEF2;
+    
+    }
+    
+    footer a:hover {
+      color: white;
+    
+    }
