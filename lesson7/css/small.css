@@ -84,9 +84,9 @@
       }
       
       #gallery_imgs figcaption {
-        font-family: Century-Schoolbook;
+        font-family: Merriweather;
         font-size: 1em;
-        color: #05386B;
+        color: #5dbef2;
         text-align: center;
       }
       
@@ -146,6 +146,15 @@
     h4 {
       text-decoration: underline;
       font-family: 'Merriweather';
+    }
+
+    img[data-src] {
+      filter: blur(0.4em);
+    }
+    
+    img {
+      filter: blur(0em);
+      transition: filter 0.5s;
     }
     
     .section_head {
