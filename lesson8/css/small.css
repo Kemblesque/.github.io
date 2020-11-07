@@ -1,0 +1,212 @@
+  body {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #fffcf2;
+  }
+  
+  #comments {
+    height: 85px;
+    width: 300px;
+  }
+  
+  #copyright {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  #dates {
+    font-size: 1.0em;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 5px;
+  }
+  
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: .5rem 2%;
+  }
+  
+  form legend {
+    color: #000000;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+  }
+  
+  form label.top, form label.info, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #000000;
+    font-size: .8rem;
+  }
+  
+  form label.info input:required {
+    border-left: red solid 6px;
+  }
+  
+  form label.info input:required:valid {
+    border-left: green solid 6px;
+  }
+  
+  form label.top input, form label.info input, form label.storm select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000;
+    border-radius: 4px;
+    padding: .5rem;
+    color: #000000;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #ffffff;
+  }
+  
+  form label.radios {
+    display: block;
+    padding-top: 1em;
+  }
+  
+  form label.storm {
+    display: block;
+    padding: .75rem 0;
+    color: #000000;
+  }
+  
+  form input.submit_button {
+    border: none;
+    background-color: #EDB04E;
+    color: #000000;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 2rem 5%;
+    width: 96%;
+    max-width: 20rem;
+  }
+  
+  footer {
+    background-color:#EDB04E;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 15px;
+  }
+  
+  header {
+    background-color: #EDC179;
+    color: #000000;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+    font-family: Merriweather;
+  }
+  
+  header img {
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading h1 {
+    font-size: 1.8em;
+    font-family: Merriweather;
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    font-family: Merriweather;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #383b3f;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: Merriweather;
+    color: #000000;
+    text-shadow: 1px 1px 1px #383b3f;
+  }
+  
+  h3 {
+    font-family: Merriweather;
+    font-size: 1.2em;
+    color: #000000;
+    text-shadow: .5px .5px .5px #383b3f;
+  }
+  
+  h4 {
+    text-decoration: underline;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .section_head {
+    text-align: center;
+    color: #000000;
+  }
+  
+  main {
+    margin: auto;
+  }
+  
+  .motto {
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: 1pt;
+    color: #000000;
+  }
+  
+  nav {
+      margin: 0 auto;
+    background-color: #edb04e;
+    border-radius: 15px;
+  }
+  
+  nav ul li a.active{
+    background-color: #5dbef2;
+  }
+  
+  .nav_bar {
+    list-style: none;
+    text-align: center;
+      padding: 0;
+  }
+  
+  .nav_bar li:first-child {
+      display: block;
+  }
+  
+  .nav_bar li {
+      display: none;
+  }
+  
+  .nav_bar a {
+      display: block;
+      padding: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      color: #000000;
+      font-weight: 700;
+  }
+  
+  .nav_bar a:hover {
+      color: #5dbef2;
+      background-color: #edc179;
+  }
+  
+  .responsive li {
+      display: block;
+  }
+  
+  p {
+    font-family: Century-Schoolbook;
+    font-size: 1em;
+    color:	#000000;
+  }
