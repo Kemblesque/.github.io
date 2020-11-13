@@ -1,0 +1,54 @@
+h1, h2 {
+    font-family: 'Rockwell', serif;
+    text-align: center;
+    color: #000000;
+  }
+  
+  img {
+    width: 55%;
+    margin: 5px auto 0 auto;
+    display: block;
+    box-shadow: 0px 0px 10px 5px #979797;
+  }
+  
+  main {
+    box-shadow: 0px 0px 10px 5px #979797;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #EDB04E;
+  }
+  
+  section {
+    background-color: #EDB04E;
+    border: solid 2px #000000;
+    padding-bottom: 12px;
+  }
+  
+  .birth, .birthplace {
+    text-align: center;
+    padding-bottom: 4px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 5px; 
+  }
+  
+  @media only screen and (min-width: 32.5em) { 
+    .cards {
+       grid-template-columns: 1fr 1fr;
+    }
+    img {
+       width: 75%;
+    }
+  }
+  
+  @media only screen and (min-width: 60em) { 
+    .cards {
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    img {
+       width: 85%;
+    }
+  }
