@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Beau C Kemble">
+    <meta name="description" content="Weather Site Home Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Weather Wonder</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/Lesson9logo.png" alt="Weather Site Logo">
+      <section class="heading">
+        <h1>Weather Wonder</h1>
+        <div class="motto">"Where the Weather is Never a Wonder"</div>
+      </section>
+    </header>
+    <nav>
+        <ul class="nav_bar">
+          <li>
+            <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+          </li>
+          <li>
+            <a class= "active" href="/lesson9/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/lesson6/preston-6.html">Preston</a>
+          </li>
+          <li>
+            <a href="#">Soda Springs</a>
+          </li>
+          <li>
+            <a href="#">Fish Haven</a>
+          </li>
+          <li>
+            <a href="/lesson8/stormcenter.html">Storm Center</a>
+          </li>
+          <li>
+              <a href="/lesson7/gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <div id="homeTitle">
+          <img src="images/mountainside.jpg" alt="Mountain Side">
+          <h2>Welcome to Weather Wonder</h2>
+        </div>
+        <div class="cards"></div>
+        <div id="wireframes"><a href="wireframes.html">Wireframes</a></div>
+      </main>
+      <footer>
+          <div>
+        &copy; <span id="currentYear"></span> | <a href="https://kemblesque.github.io/">Beau Kemble</a> | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+          </div>
+        <div>Last Updated: <span id="updated"></span></div>
+      </footer>
+          <script src="js/script.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+          </script>
+          <script>
+            WebFont.load({google: {families: ['Fira Sans', 'Titillium Web']}});
+          </script>
+        </body>
+      </html>
