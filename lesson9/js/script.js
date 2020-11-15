@@ -13,14 +13,14 @@ var dateStr = day1[day] + ', ' + date + ' ' + month1[month] + ' ' + year;
 document.getElementById("dates").innerHTML = dateStr;
 document.getElementById("copyright").innerHTML = year;
 
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL)
 .then(function (response) {
   return response.json();
 })
 .then(function (jsonObject) {
   //console.table(jsonObject);  // temporary checking for valid response and data parsing
-  const towns = jsonObject['towns'];
+  const towns = jsonObject["towns"];
   towns.sort((a,b) => (a.averageRainfall > b.averageRainfall) ? 1 : ((b.averageRainfall > a.averageRainfall) ? -1 : 0));
   towns.reverse();
   for (let i = 0; i < towns.length; i++) {
