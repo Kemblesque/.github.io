@@ -177,7 +177,7 @@
   
     #map {
       margin: auto;
-      border: 2px solid #05386b;
+      border: 2px solid #000000;
     }
     
     nav {
@@ -250,7 +250,7 @@
     }
 
     #temp1, #temp2, #temp3, #temp4, #temp5 {
-        color: #05386b;
+        color: #000000;
         font-family: Merriweather;
         font-size: 1.2em;
       }
