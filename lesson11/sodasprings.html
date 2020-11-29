@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Beau C Kemble">
+    <meta name="description" content="Assignment portal for Beau Kemble in WDD 230: Web Frontend Development at BYU-I">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Soda Springs Weather Site</title>
+  </head>
+  <body>
+    <div id="announce" style="display: block;"></div>
+    <header>
+      <picture>
+        <img src="images/Lesson11logo.png" alt="Weather Site Logo">
+      </picture>
+      <section class="heading">
+        <h1>Weather Wonder</h1>
+        <div class="motto">"Where the Weather is Never a Wonder"</div>
+      </section>
+    </header>
+    <nav>
+        <ul class="nav_bar">
+          <li>
+            <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+          </li>
+          <li>
+            <a href="/lesson9/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/lesson10/preston10.html">Preston</a>
+          </li>
+          <li>
+            <a class= "active" href="/lesson11/sodasprings.html">Soda Springs</a>
+          </li>
+          <li>
+            <a href="#">Fish Haven</a>
+          </li>
+          <li>
+            <a href="/lesson8/stormcenter.html">Storm Center</a>
+          </li>
+          <li>
+              <a href="/lesson7/gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h2 class= "section_head">Soda Springs</h2>
+        <div class="herodiv">
+          <picture>
+            <source media="(max-width: 400px)" srcset="images/sodasprings400.jpg">
+            <source media="(max-width: 800px)" srcset="images/sodasprings800.jpg">
+            <img src="images/sodasprings1200.jpg" alt="Winter Image">
+          </picture>
+          <section class="summary">
+            <h3>Weather Summary</h3>
+              <p>Currently: 
+                <span id="currently"></span>
+              </p>
+              <p>Temp: 
+                <span id="temp"></span>
+              &#176;F</p>
+              <p>Wind Chill: 
+                <span id="windchill"></span>
+              </p>
+              <p>Humidity: 
+                <span id="humidity"></span>
+              %</p>
+              <p>Wind Speed: 
+                <span id="windspeed"></span>
+              mph</p>
+                </section>
+        </div>
+        <h3 id="forecastTitle">5 Day Forecast</h3>
+      <div class="forecastdiv">
+        <div class="forecasts">
+          <div id="day1"></div>
+          <img src="#" alt="" id="img1">
+          <div id="temp1"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day2"></div>
+          <img src="#" alt="" id="img2">
+          <div id="temp2"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day3"></div>
+          <img src="#" alt="" id="img3">
+          <div id="temp3"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day4"></div>
+          <img src="#" alt="" id="img4">
+          <div id="temp4"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day5"></div>
+          <img src="#" alt="" id="img5">
+          <div id="temp5"></div>
+        </div>
+            </div>
+            <section class="townEvents">
+                <h3>Upcoming Town Events</h3>
+                <hr>
+              </section>
+              <div class="articlediv">
+                <picture>
+                  <img id="article_img" src="/lesson11/images/geyser.jpg" alt="Geyser Image">
+                </picture>
+                <h3>Geyser Park in Soda Springs</h3>
+                <p>Soda Springs is a group of thousands of natural carbonated springs in the area of Soda Springs, Idaho. The springs were a landmark on the Oregon Trail.</p>
+        
+                <p>I have visited Geyser Park in Soda Springs many times during my life.  I remember coming here when I was very young and being amazed at the geyser and the surrounding orange-ish buildup.  Even now I still feel it is a great place to stop.</p>
+        
+                <p>Geyser Park is located downtown Soda Springs behind several of the buildings on Main Street.  I have always enjoyed coming here, seeing the geyser and then eating in town when visiting.</p>
+                  
+                <p>The geyser has a very interesting history.  Trying to find a hot water source for their planned swimming pool, a drilling company drilled down some 300 ft in November 1937 until they reached a large chamber. Inside this chamber, carbon dioxide gas mixes with the underground water building up pressure which then makes the water shoot out of the drill hole.  The geyser can reach heights of around 100 ft.  A timer and cap control the geyser so it erupts every half hour, on the hour, year round.--<a href="https://thetrekplanner.com/geyser-park-soda-springs-idaho/">READ MORE at Trek Planner</a></p>
+              </div>
+              <div class="contactdiv">
+                <div class="contact_info">
+                  <h4>Contact Information</h4>
+                  <h3>1234 Wonder Ave</h3>
+                  <h3>Boise, Idaho 83707</h3>
+                  <h3>208-555-1234</h3>
+                  <h3>contact@weatherwonder.com</h3>
+                </div>
+                <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+                <a href="https://www.embedgooglemap.net/en/"></a>
+              </div>
+            </main>
+        
+            <footer>
+          &copy; <span id="currentYear"></span> | <a href="https://kemblesque.github.io/">Beau Kemble</a> | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+          <div>Last Updated: <span id="updated"></span></div>
+        </footer>
+        <script src='js/sodasprings.js'></script>
+        <script src='js/script.js'></script>
+        </body>
+        </html>

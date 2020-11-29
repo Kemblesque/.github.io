@@ -1,0 +1,392 @@
+#announce {
+    display: none;
+    background-color: #EDC179;
+    color: #5DBEF2;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .articlediv p {
+    color: #000000;
+  }
+  
+  .articlediv {
+      display: block;
+      margin-top: 15px;
+      padding: 10px;
+    border: 1px solid #000;
+    color: #000000;
+  }
+  
+  #article_img {
+    width: 100%;
+  }
+  
+  body {
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      background-color: #FFFCF2;
+    }
+
+    .cards {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+    }
+    
+    .cards section {
+      margin: auto;
+      border: 2px solid #000;
+      border-radius: 8px;
+      background-color: #d4dec9;
+    }
+    
+    .cards section img {
+      border-radius: 8px;
+      width: 80%;
+      height: auto;
+      padding: 5px;
+      filter: blur(0em);
+      transition: filter 1s;
+    }
+  
+    .contact_info {
+      grid-column: 1;
+      margin: auto;
+    }
+    
+    .contact_info h3, .contact_info h4 {
+      text-align: center;
+      color: #000000;
+    }
+    
+    .contactdiv {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #000;
+    }
+
+    #comments {
+      height: 85px;
+      width: 300px;
+    }
+
+    #dates {
+        font-size: 1.0em;
+        font-family: 'Titillium Web', sans-serif;
+        padding-top: 5px;
+      }
+      
+      #day1, #day2, #day3, #day4, #day5 {
+        background-color: #EDC179;
+        color: #000000;
+        font-family: Merriweather;
+        font-size: 1.2em;
+        font-weight: bolder;
+        text-align: center;
+      }
+    
+    
+    #fiveDay {
+      margin: 0 auto;
+      width: 700px;
+      text-align: center;
+      color: #000000
+    }
+
+    #forecastTitle {
+      text-align: center;
+    }
+    
+    .forecastdiv {
+      display: none;
+    }
+
+    .forecastdiv h3, .articlediv h3 {
+        text-align: center;
+      }
+
+      form fieldset {
+        margin: 2rem 0;
+        border: 1px solid #05386b;
+        border-radius: 10px;
+        padding: .5rem 2%;
+      }
+      
+      form legend {
+        color: #05386B;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+        font-size: 1.2rem;
+      }
+
+      form label.top, form label.info, form div {
+        display: block;
+        padding-top: 1rem;
+        color: #05386B;
+        font-size: .8rem;
+      }
+      
+      form label.info input:required {
+        border-left: red solid 6px;
+      }
+      
+      form label.info input:required:valid {
+        border-left: green solid 6px;
+      }
+      
+      form label.top input, form label.info input, form label.storm select {
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #000;
+        border-radius: 4px;
+        padding: .5rem;
+        color: #05386B;
+        width: 100%;
+        max-width: 20rem;
+        background-color: #ffffff;
+      }
+      
+      form label.radios {
+        display: block;
+        padding-top: 1em;
+      }
+      
+      form label.storm {
+        display: block;
+        padding: .75rem 0;
+        color: #05386B;
+      }
+      
+      form input.submit_button {
+        border: none;
+        background-color: #5cdb95;
+        color: #05386b;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 2rem 5%;
+        width: 96%;
+        max-width: 20rem;
+      }
+    
+    header {
+      background-color: #EDC179;
+      color: #000000;
+      align-items:center;
+      justify-content: center;
+      display: flex;
+      padding: 5px 0;
+      font-family: 'Merriweather';
+    }
+    
+    header img {
+      height: 80px;
+      width: auto;
+      padding-right: 10px;
+    }
+    
+    .heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .heading h1 {
+      font-size: 1.8em;
+      font-family: 'Merriweather';
+      margin-bottom: 0px;
+    }
+
+    #homeTitle {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-bottom: 5px;
+    }
+    
+    #homeTitle img {
+      width: 100%;
+    }
+    
+    h1 {
+      font-family: 'Montserrat';
+      font-size: 1.8em;
+    }
+    
+    h2 {
+      font-size: 1.5em;
+      font-family: 'Montserrat';
+    }
+  
+    h3 {
+      font-family: Century-Schoolbook;
+      font-size: 1.2em;
+      color: #000000;
+    }
+    
+    
+    h4 {
+      text-decoration: underline;
+      font-family: 'Merriweather';
+    }
+
+    img[data-src] {
+      filter: blur(0.4em);
+    }
+    
+    img {
+      filter: blur(0em);
+      transition: filter 0.5s;
+    }
+    
+    .section_head {
+      text-align: center;
+      color: #000000;
+    }
+  
+    .herodiv {
+      margin: 10px auto;
+      position: relative;}
+      
+    .herodiv img {
+      width: 100%;
+    }
+    
+    .summary {
+      position: absolute;
+      top: 0px;
+      font-size: .75em;
+      background: radial-gradient(#eee, #EDF5E1);
+      border: 1px solid #000;
+      padding: 5px;
+      box-shadow: 0 0 30px #111;
+      opacity: .8;
+    }
+    
+    .summary p {
+      color: #000000;
+      font-weight: bolder;
+    }
+    
+    main {
+      margin: auto;
+    }
+    
+    .motto {
+      font-style: italic;
+      font-size: .9em;
+      letter-spacing: 1pt;
+      color: #000000;
+    }
+  
+    #map {
+      margin: auto;
+      border: 2px solid #000000;
+    }
+    
+    nav {
+        margin: 0 auto;
+      background-color: #EDB04E;
+      border-radius: 15px;
+    }
+    
+    nav ul li a.active{
+      background-color: #5DBEF2;
+    }
+    
+    .nav_bar {
+      list-style: none;
+      text-align: center;
+        padding: 0;
+    }
+    
+    .nav_bar li:first-child {
+        display: block;
+    }
+    
+    .nav_bar li {
+        display: none;
+    }
+    
+    .nav_bar a {
+        display: block;
+        padding: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+        font-weight: 700;
+    }
+    
+    .nav_bar a:hover {
+        color: #5DBEF2;
+        background-color: #EDC179;
+    }
+    
+    .responsive li {
+        display: block;
+    }
+  
+    p {
+      font-family: Merriweather;
+      font-size: 1em;
+      color:	#000000;
+    }
+    
+    footer {
+      background-color:#EDB04E;
+      color: #000000;
+      font-family: 'Merriweather';
+      font-size: 16px;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 10px;
+      border-radius: 15px;
+    }
+  
+    footer a {
+      color: #5DBEF2;
+    
+    }
+    
+    footer a:hover {
+      color: white;
+    
+    }
+
+    #temp1, #temp2, #temp3, #temp4, #temp5 {
+        color: #000000;
+        font-family: Merriweather;
+        font-size: 1.2em;
+      }
+
+      .townEvents {
+        border: 2px solid #000000;
+        box-shadow: 5px 5px #000000;
+        margin: 15px auto;
+        text-align: center;
+        width: 50%;
+      }
+      
+      .townEvents p {
+        color: #000000;
+      }
+      
+      .townEvents hr {
+        background-color: #000000;
+        color: #000000;
+        height: 1.5px;
+        width: 85%;
+      }
+      
+      #wireframes {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+      }
