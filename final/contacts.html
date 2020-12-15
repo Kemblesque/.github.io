@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beau Kemble">
+    <meta name="description" content="Scoots Contacts Page">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">    
+    <title>Scoots Contacts</title>
+  </head>
+  <body>
+    <header>
+      <img src="/final/images/scoots_logo.png" alt="Scoots Company Logo">
+      <section class="heading">
+        <h1>SCOOTS Rentals</h1>
+        <div class="motto">"Let Us Take You There"</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/final/home.html">Home</a></li>
+        <li><a href="/final/rentals.html">Rentals</a></li>
+        <li><a href="/final/reservations.html">Reservations</a></li>
+        <li><a href="/final/tours.html">Tours</a></li>
+        <li><a class="active" href="/final/contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="homeTitle">
+        <h2>SCOOTS Contacts & Locations</h2>
+      </div>
+      <div class="rentalInfo">
+        <h3>Rental Information</h3>
+        <h4>Types of Rentals</h4>
+        <p>&#9679; Honda Motor Scooters</p>
+        <p style ="text-indent: 1cm;">&bull; Honda Metropolitan (49cc) - 1 person</p>
+        <p style ="text-indent: 1cm;">&bull; Honda Dio (110cc) - 2 person</p>
+        <p style ="text-indent: 1cm;">&bull; Honda PCX150 (149cc) - 2 person</p>
+        <p>&#9679; Side-by-Side</p>
+        <p style ="text-indent: 1cm;">&bull; Honda Pioneer 1000</p>
+        <p>&#9679; Jeep Rentals</p>
+        <p style ="text-indent: 1cm;">&bull; 4-door Jeep Wrangler - manual with A/C - 5 people max</p>
+        <p style ="text-indent: 1cm;">&bull; 2-door Jeep Wrangler - open air - manual - 4 people max</p>
+      </div>
+      <div class="contactdiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.9673825751224!2d-86.95130754435061!3d20.5109338604818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Dock!5e0!3m2!1sen!2sus!4v1594596722879!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </a>
+        <div class="contact_info">
+          <h4>Contact Information</h4>
+          <h3>234 Av Claudio Canto</h3>
+          <h3>Puerta Maya, Cozumel</h3>
+          <h3>+52 (987)-555-0234</h3>
+          <h3>contact@SCOOTS.com</h3>
+        </div>
+      </div>
+      <div class="contactdiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3737.7427907014285!2d-86.97723018557393!3d20.47575478630055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPuerta%20Maya%20Terminal%2C%20Coastal%20Highway%20South%2C%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1594597203115!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="contact_info">
+          <h4>Contact Information</h4>
+          <h3>123 5th Avenue</h3>
+          <h3>Playa Del Carmen, Cozumel</h3>
+          <h3>+52 (984)-555-1234</h3>
+          <h3>contact@SCOOTS.com</h3>
+        </div>
+      </div>
+        <form method="GET" action="thanks.html">
+          <fieldset>
+            <legend>Contact Us Here</legend>
+              <label class="info">
+              *Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+              </label>
+              <label class="info">
+              Email: <input type="email" name="email" placeholder="info@SCOOTS.com">
+              </label>
+              <label class="top">Comments: </label>
+              <textarea name="comments" id="comments">
+              </textarea>
+          </fieldset>
+          <input class="submit_button" type="submit" value="Submit Comment">
+        </form>
+    </main>
+    <footer>
+      <div>
+        &copy;<span id="copyright"></span> | Beau Kemble | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </div>
+      <span id="dates"></span>
+    </footer>
+    <script src="/final/js/reservations.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({google: {families: ['Bangers', 'Roboto Slab']}});
+    </script>
+  </body>
+</html>

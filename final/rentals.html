@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beau Kemble">
+    <meta name="description" content="Scoots Rentals Page">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/table.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">    
+    <title>Scoots Rentals</title>
+  </head>
+  <body>
+    <header>
+      <img src="/final/images/scoots_logo.png" alt="Scoots Company Logo">
+      <section class="heading">
+        <h1>SCOOTS Rentals</h1>
+        <div class="motto">"Let Us Take You There"</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/final/home.html">Home</a></li>
+        <li><a class="active" href="/final/rentals.html">Rentals</a></li>
+        <li><a href="/final/reservations.html">Reservations</a></li>
+        <li><a href="/final/tours.html">Tours</a></li>
+        <li><a href="/final/contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="homeTitle">
+        <img src="/final/images/cozumelhome.jpg" alt="Cozumel Sunset">
+        <h2>SCOOTS Rentals Information</h2>
+      </div>
+      <table id="Info">
+        <caption>Max Persons and Price Chart (includes Tax)</caption>
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+            <th colspan="2">Reservation</th>
+            <th colspan="2">Walk-In</th>
+          </tr>
+          <tr>
+            <th>Rental Type</th>
+            <th>Max. Persons</th>
+            <th>Half Day (3 hrs)</th>
+            <th>Full Day</th>
+            <th>Half Day (3 hrs)</th>
+            <th>Full Day</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>~Honda Metro Scooter</td>
+            <td>1</td>
+            <td id="rhd1"></td>
+            <td id="rfd1"></td>
+            <td id="whd1"></td>
+            <td id="wfd1"></td>
+          </tr>
+          <tr>
+            <td>~Honda Dio Scooter</td>
+            <td>2</td>
+            <td id="rhd2"></td>
+            <td id="rfd2"></td>
+            <td id="whd2"></td>
+            <td id="wfd2"></td>
+          </tr>
+          <tr>
+            <td>~Honda PCX150 Scooter</td>
+            <td>2</td>
+            <td id="rhd3"></td>
+            <td id="rfd3"></td>
+            <td id="whd3"></td>
+            <td id="wfd3"></td>
+          </tr>
+          <tr>
+            <td>Honda Pioneer ATV</td>
+            <td>4</td>
+            <td id="rhd4"></td>
+            <td id="rfd4"></td>
+            <td id="whd4"></td>
+            <td id="wfd4"></td>
+          </tr>
+          <tr>
+            <td>Jeep Wrangler - 4 door with a/c</td>
+            <td>5</td>
+            <td id="rhd5"></td>
+            <td id="rfd5"></td>
+            <td id="whd5"></td>
+            <td id="wfd5"></td>
+          </tr>
+          <tr>
+            <td>Jeep Wrangler - 2 door</td>
+            <td>4</td>
+            <td id="rhd6"></td>
+            <td id="rfd6"></td>
+            <td id="whd6"></td>
+            <td id="wfd6"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="6">Compiled by SCOOTS.com</td>
+          </tr>
+        </tfoot>
+      </table>
+      <div id="gallery_imgs">
+        <figure>
+          <img class="galleryImage" alt="Honda Metro Scooter" src="/final/images/placeholder2.jpg" data-src="/final/images/metro.png">
+          <figcaption>Honda Metro Scooter</figcaption>
+        </figure>
+        <figure>
+          <img class="galleryImage" alt="Honda Dio Scooter" src="/final/images/placeholder2.jpg" data-src="/final/images/dio.png">
+          <figcaption>Honda Dio Scooter</figcaption>
+        </figure>
+        <figure>
+          <img class="galleryImage" alt="Honda PCX150 Scooter" src="/final/images/placeholder2.jpg" data-src="/final/images/pcx.png">
+          <figcaption>Honda PCX150 Scooter</figcaption>
+        </figure>
+        <figure>
+          <img class="galleryImage" alt="Honda Pioneer 1000" src="/final/images/placeholder2.jpg" data-src="/final/images/pioneer1000.png">
+          <figcaption>Honda Pioneer ATV</figcaption>
+        </figure>
+        <figure>
+          <img class="galleryImage" alt="Jeep Wrangler 4-door" src="/final/images/placeholder2.jpg" data-src="/final/images/jeep4door.png">
+          <figcaption>Jeep Wrangler 4-door</figcaption>
+        </figure>
+        <figure>
+          <img class="galleryImage" alt="Jeep Wrangler 2-door" src="/final/images/placeholder2.jpg" data-src="/final/images/jeep2door.png">
+          <figcaption>Jeep Wrangler 2-door</figcaption>
+        </figure>
+      </div>
+    </main>
+    <footer>
+      <div>
+        &copy;<span id="copyright"></span> | Beau Kemble | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </div>
+      <span id="dates"></span>
+    </footer>
+    <script src="/final/js/rentals.js"></script>
+    <script src="/final/js/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({google: {families: ['Bangers', 'Roboto Slab']}});
+    </script>
+  </body>
+</html>

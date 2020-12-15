@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beau Kemble">
+    <meta name="description" content="Scoots Home Page">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">    
+    <title>Scoots Home</title>
+  </head>
+  <body>
+    <header>
+      <img src="/final/images/scoots_logo.png" alt="Scoots Company Logo">
+      <section class="heading">
+        <h1>SCOOTS Rentals</h1>
+        <div class="motto">"Let Us Take You There"</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a class="active" href="/final/home.html">Home</a></li>
+        <li><a href="/final/rentals.html">Rentals</a></li>
+        <li><a href="/final/reservations.html">Reservations</a></li>
+        <li><a href="/final/tours.html">Tours</a></li>
+        <li><a href="/final/contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="homeTitle">
+        <img src="/final/images/cozumelhome.jpg" alt="Cozumel Sunset">
+        <h2>Welcome to SCOOTS Rentals</h2>
+      </div>
+      <div class="cards">
+        <section>
+          <h4>Playa Del Carmen-Ferry Dock</h4>
+          <img src="/final/images/playa400.jpg" alt="Playa Del Carmen Ferry Dock">
+          <form method="GET" action="reservations.html">
+            <input class="submit_button" type="submit" value="Reserve Now" id="homeSubmit">
+          </form>
+        </section>
+        <div class="rentalInfoHome">
+          <h3>Rental Information</h3>
+          <h4>Types of Rentals</h4>
+          <p>&#9679; Honda Motor Scooters</p>
+          <p style ="text-indent: 1cm;">&bull; Honda Metropolitan (49cc) - 1 person</p>
+          <p style ="text-indent: 1cm;">&bull; Honda Dio (110cc) - 2 person</p>
+          <p style ="text-indent: 1cm;">&bull; Honda PCX150 (149cc) - 2 person</p>
+          <p>&#9679; ATV Side-by-Side</p>
+          <p style ="text-indent: 1cm;">&bull; Honda Pioneer 1000</p>
+          <p>&#9679; Jeep Rentals</p>
+          <p style ="text-indent: 1cm;">&bull; 4-door Jeep Wrangler - manual with A/C - 5 people max</p>
+          <p style ="text-indent: 1cm;">&bull; 2-door Jeep Wrangler - open air - manual - 4 people max</p>
+        </div>
+        <section>
+          <h4>Terminal Puerta Maya</h4>
+          <img src="/final/images/puerta400.jpg" alt="Terminal Puerta Maya">
+          <form method="GET" action="reservations.html">
+            <input class="submit_button" type="submit" value="Reserve Now" id="homeSubmit">
+          </form>
+        </section>
+        <section class="summary">
+          <h3>Current Weather In Cozumel</h3>
+            <p>Currently: 
+              <span id="currently"></span>
+            </p>
+            <p>Temp: 
+              <span id="temp"></span>
+            &#176;F</p>
+            <p>Humidity: 
+              <span id="humidity"></span>
+            %</p>
+  			</section>
+        <div class="forecasts">
+          <h3>Cozumel's Forecast</h3>
+          <div id="day1"></div>
+          <img src="#" alt="" id="img1">
+          <div id="temp1"></div>
+        </div>
+        <div class="links">
+          <h3>Check Out Our Social Media Pages!</h3>
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        &copy;<span id="copyright"></span> | Beau Kemble | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a> | <a href="https://openweathermap.org/">Open Weather Map</a>
+      </div>
+      <span id="dates"></span>
+    </footer>
+    <script src="/final/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({google: {families: ['Bangers', 'Roboto Slab']}});
+    </script>
+  </body>
+</html>

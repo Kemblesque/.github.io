@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beau Kemble">
+    <meta name="description" content="Scoots Reservations Page">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">    
+    <title>Scoots Reservations</title>
+  </head>
+  <body>
+    <header>
+      <img src="/final/images/scoots_logo.png" alt="Scoots Company Logo">
+      <section class="heading">
+        <h1>SCOOTS Rentals</h1>
+        <div class="motto">"Let Us Take You There"</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/final/home.html">Home</a></li>
+        <li><a href="/final/rentals.html">Rentals</a></li>
+        <li><a class="active" href="/final/reservations.html">Reservations</a></li>
+        <li><a href="/final/tours.html">Tours</a></li>
+        <li><a href="/final/contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="homeTitle">
+        <h2>SCOOTS Reservations</h2>
+      </div>
+      <div class="rentalInfo">
+        <h4>Information and Services</h4>
+        <p>* A $50 security deposit is required to confirm reservations.</p>
+        <p>* A valid drivers license is required in hand at time of rental.</p>
+        <p>* No one under 12 years of age are allowed to ride on the scooters.</p>
+        <p>* Fuel charge not included.</p>
+        <p>* Unlimited mileage.</p>
+        <p>* Liability insurance is free of charge.</p>
+        <p>* Reservations rate requires 24 hour prior notification.</p>
+        <p>* Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
+        <p>* Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
+        <p>* Rentals may be returned to either location.</p>
+      </div>
+        <h2>Reserve your rental here!</h2>
+        <form method="GET" action="confirmation.html">
+            <fieldset>
+              <legend>Your Information</legend>
+                <label class="info">
+                *Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                </label>
+                <label class="info">
+                Email: <input type="email" name="email" placeholder="info@SCOOTS.com">
+                </label>  
+                <label class="info">
+                *Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="123-456-7890" required>
+                </label>
+                <label class="info">
+                *Number of People: <input type="number" name="people" required>
+                </label>
+                <label class="info">
+                  State/Country: <input type="text" name="country" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+                </label>
+                <label class="rental">
+                  Cruise Line: <select name="cruise" id="cruise">
+                  <option selected disabled>Select....</option>
+                  <option value="Princess">Princess</option>
+                  <option value="Carnival">Carnival</option>
+                  <option value="Royal Caribbean">Royal Caribbean</option>
+                  <option value="Other">Other</option>
+                  <option value="N/A">N/A</option>
+                  </select>
+                </label> 
+            </fieldset>
+            <fieldset>
+              <legend>Rental Information</legend>
+                <label class="rental">
+                  Rental Type: <select name="rental_type" id="rental_type">
+                  <option selected disabled>Select....</option>
+                  <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                  <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                  <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                  <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                  <option value="Jeep Wrangler 4-door with A/C">Jeep Wrangler 4-door with A/C</option>
+                  <option value="Jeep Wrangler 2-door">Jeep Wrangler 2-door</option>
+                  </select>
+                </label> 
+                <label class="info">Date of Rental: </label>
+                  <input type="date" id="rental_date" name="date">
+                <label class="info">
+                  *Rental Period(in hours): <input type="number" name="period" required>
+                </label>
+                <label class="top">Special Accommodations/Comments: </label>
+                <textarea name="comments" id="comments"></textarea>
+            </fieldset>
+            <input class="submit_button" type="submit" value="Reserve Now">
+        </form>
+    </main>
+    <footer>
+      <div>
+        &copy;<span id="copyright"></span> | Beau Kemble | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </div>
+      <span id="dates"></span>
+    </footer>
+    <script src="/final/js/reservations.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({google: {families: ['Bangers', 'Roboto Slab']}});
+    </script>
+  </body>
+</html>

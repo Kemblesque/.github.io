@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beau Kemble">
+    <meta name="description" content="Scoots Confirmation Page">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">    
+    <title>Scoots Confirmation Page</title>
+  </head>
+  <body>
+    <header>
+      <img src="/final/images/scoots_logo.png" alt="Scoots Company Logo">
+      <section class="heading">
+        <h1>SCOOTS Rentals</h1>
+        <div class="motto">"Let Us Take You There"</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/final/home.html">Home</a></li>
+        <li><a href="/final/rentals.html">Rentals</a></li>
+        <li><a href="/final/reservations.html">Reservations</a></li>
+        <li><a href="/final/tours.html">Tours</a></li>
+        <li><a href="/final/contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+        <h2>SCOOTS Rentals Confirmation</h2>
+      </div>
+      <h2>Thank you for your reservation!</h2>
+      <p>We have received your reservation and will reach out to you if we need additional information.</p>
+      <p>Please pay the minimum $50 dollar security deposit below to secure your reservation.
+      </p>
+      <fieldset>
+        <legend>Deposit Information</legend>
+          <label class="info">
+          *Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+          </label>
+          <label class="deposit">
+            Card Type: <select name="card" id="card">
+            <option selected disabled>Select Card....</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Discover">Discover</option>
+            <option value="American Express">American Express</option>
+            </select>
+          </label> 
+          <label class="info">Amount: </label>
+          <input type="number" value="50.00" min="50" step="1.00" data-number-to-fixed="2" class="currency" id="amount" />
+          <input class="submit_button" type="submit" value="Pay Now">
+      </fieldset>
+    </main>
+    <footer>
+      <div>
+        &copy;<span id="copyright"></span> | Beau Kemble | Caldwell, Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </div>
+      <span id="dates"></span>
+    </footer>
+    <script src="/final/js/reservations.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({google: {families: ['Bangers', 'Roboto Slab']}});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,413 @@
+a {
+    color: #326273;
+    font-weight: bold;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    background-color: #FFFFF0;
+  }
+  
+  .cards {
+    padding-top: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  
+  .cards section {
+    border: 2px solid #000;
+    border-radius: 8px;
+  }
+  
+  .cards section img {
+    border-radius: 8px;
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+  
+  .contact_info {
+    grid-column: 1;
+    margin: auto;
+  }
+  
+  .contact_info h3, .contact_info h4 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .contactdiv iframe {
+    margin: auto;
+    width: 100%;
+  }
+  
+  .contactdiv {
+      display: grid;
+      grid-template-columns: 1fr;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px #05386b;
+  }
+  
+  #comments {
+    height: 85px;
+    width: 300px;
+  }
+  
+  #copyright {
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  #dates {
+    font-size: 1.0em;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 5px;
+  }
+  
+  #day1 {
+    color: #000000;
+    font-family: Century-Schoolbook;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  #fiveDay {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    color: #000000;
+    font-family: Century-Schoolbook;
+  }
+  
+  .forecasts {
+    padding: 3px;
+    margin: 2px;
+    background-color: #abe9f8;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px #05386b;
+  }
+  
+  .forecastdiv h3, .articlediv h3 {
+    text-align: center;
+  }
+  
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: .5rem 2%;
+  }
+  
+  form legend {
+    color: #000000;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+  }
+  
+  form label.top, form label.info, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #000000;
+    font-size: .8rem;
+  }
+  
+  form label.info input:required {
+    border-left: red solid 6px;
+  }
+  
+  form label.info input:required:valid {
+    border-left: green solid 6px;
+  }
+  
+  form label.top input, form label.info input, form label.rental select, form label.deposit select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000;
+    border-radius: 4px;
+    padding: .5rem;
+    color: #05386B;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #f6fafa;
+  }
+  
+  form label.rental {
+    display: block;
+    padding: .75rem 0;
+    color: #05386B;
+  }
+  
+  form input.submit_button {
+    border: none;
+    background-color: #FFCC41;
+    color: #000000;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 2rem 5%;
+    width: 96%;
+    max-width: 20rem;
+  }
+  
+  footer {
+    background-color: #18BAFF;
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 15px;
+  }
+  
+  #gallery_imgs {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  #gallery_imgs figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #gallery_imgs figcaption {
+    font-family: Century-Schoolbook;
+    font-size: 1em;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .galleryImage {
+    width: 100%;
+  }
+  
+  header {
+    color: #FF3543;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+    font-family: 'Roboto Slab';
+  }
+  
+  header img {
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading h1 {
+    font-size: 1.8em;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 0px;
+  }
+  
+  #homeTitle {
+    border-style: groove;
+    border-color: #000000;
+    background-color: #abe9f8;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+  
+  #homeTitle img {
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    text-shadow: 1px 1px 1px #05386b;
+  }
+  
+  h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    color: #000000;
+    text-shadow: .5px .5px .5px #05386b;
+  }
+  
+  h4 {
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  img[data-src] {
+    filter: blur(0.4em);
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+  main {
+    margin: auto;
+  }
+  
+  .motto {
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: 1pt;
+    color: #000000;
+  }
+  
+  nav {
+      margin: 0 auto;
+    background-color: #000000;
+    border-radius: 15px;
+  }
+  
+  nav ul li a.active{
+    background-color: #18BAFF;
+    border-radius: 15px;
+  }
+  
+  .nav_bar {
+    list-style: none;
+    text-align: center;
+      padding: 0;
+  }
+  
+  .nav_bar li:first-child {
+      display: block;
+  }
+  
+  .nav_bar li {
+      display: none;
+  }
+  
+  .nav_bar a {
+      display: block;
+      padding: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      color: #FFFFFF;
+      font-weight: 700;
+  }
+  
+  .nav_bar a:hover {
+      color: #000000;
+    background-color: #18BAFF;
+    border-radius: 15px;
+  }
+  
+  p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    color:	#000000;
+  }
+  
+  .rentalInfo p {
+    color: #000000;
+  }
+  
+  .rentalInfo {
+      display: block;
+      margin-top: 15px;
+      padding: 10px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px #05386b;
+    color: #326773;
+  }
+  
+  .rentalInfoHome {
+    padding-right: 10px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px #05386b;
+    color: #326773;
+  }
+  
+  .responsive li {
+      display: block;
+  }
+  
+  .summary {
+      border: 1px solid #000;
+      padding: 5px;
+      box-shadow: 0 0 30px #111;
+      background-color: #abe9f8;
+  }
+  
+  .summary p {
+    color: #000000;
+    font-weight: bolder;
+  }
+  
+  .tours p {
+    color: #000000;
+  }
+  
+  .tours {
+      display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+      padding: 10px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px #05386b;
+    color: #05386B;
+  }
+  
+  #tours_img {
+    width: 100%;
+  }

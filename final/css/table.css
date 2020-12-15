@@ -1,0 +1,45 @@
+caption {
+    background-color: #18BAFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 8px;  
+  }
+  
+  tfoot tr td {
+    background-color: #18BAFF;
+    text-align: center;
+    font-size: .7em;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #F8F8FF;
+    color: #000000;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 1.5px #000000;
+  }
+  
+  td {
+    border: solid 1.5px #000000;
+    padding: 5px;
+  }
+  
+  tr:nth-child(odd) {
+    background: #F8F8FF;
+  }
+  
+  tr:nth-child(even) {
+    background: #F8F8FF;
+  }
+  
+  #Info {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    border: solid 1px #cdcdcd;
+    border-collapse: collapse;
+    box-shadow: 8px 8px 12px #5e9097;
+  }
